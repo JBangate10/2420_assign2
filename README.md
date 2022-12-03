@@ -29,4 +29,4 @@ sudo cp caddy /usr/bin/
 
 ### Step 4: Writing "Web App"
 To start, create a new directory (doesn't matter where you create it) on WSL and name it "2420-assign-two"   
-![Step 4 (1)!](\Users\Jose 2.0\Desktop\ACIT 2420\Week 13\2420_assign2\images\step4(1).png) 
+![Step 4 (1)!](/Week%2013/2420_assign2/images/step4(1).png) 
