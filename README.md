@@ -5,9 +5,12 @@
 ## Creating Servers using Caddy
 
 ### Step 1: Create DO Infrastructure
-Your DO Infrastructure should include the following:
+Follow this video to create a proper DO Infrastructure: (https://vimeo.com/775412708/4a219b37e7)
+
+After following the video, your DO Infrastructure should include the following:
 - VPC
 - At least 2 Droplets
 - Load Balancer (Use the DigitalOcean Load Balancer)
 - Firewall (Use the DigitalOcean Cloud Firewall)
-- Something
+
+### Step 2: Create New Regular User for 2 Droplets
