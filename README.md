@@ -25,7 +25,18 @@ wget https://github.com/caddyserver/caddy/releases/download/v2.6.2/caddy_2.6.2_l
 tar xvf caddy_2.6.2_linux_amd64.tar.gz   
 sudo chown root: caddy   
 sudo cp caddy /usr/bin/
+```   
+
+Once installation is complete, you can then begin to configure Caddy configuration file by following    
+and running these commands below:   
 ```
+sudo mkdir /etc/caddy
+sudo chmod 777 Caddyfile
+vim Caddyfile
+```   
+   
+Add the following inside the Caddyfile:   
+![Step 3 (1)!](./images/step3(1).png)   
 
 ### Step 4: Writing "Web App"
 To start, create a new directory (doesn't matter where you create it) on WSL and name it "2420-assign-two".   
