@@ -14,8 +14,8 @@ After following the video, your DO Infrastructure should include the following:
 - Firewall (Use the DigitalOcean Cloud Firewall)
 
 ### Step 2: Create New Regular User for 2 Droplets
-Follow this video below to create a new regular user for both of your newly added Droplets.
-Tip: Skip the video to 20:14
+Follow this video below to create a new regular user for both of your newly added Droplets.   
+**Tip:** Skip the video to 20:14
 (https://learn.bcit.ca/d2l/le/content/877753/viewContent/8037537/View)
 
 ### Step 3: 
