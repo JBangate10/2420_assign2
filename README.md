@@ -34,6 +34,28 @@ To start, create a new directory (doesn't matter where you create it) on WSL and
 Inside of the "2420-assign-two" directory, create 2 new directories called "html" and "src".   
 ![step 4 (2)!](./images/step4(2).png)   
    
-Inside of the "html" directory, create an "index.html" page by using running the command `vim index.html`   
+Inside of the "html" directory, create an "index.html" page by using running the command `vim index.html`.   
 and create a simple html document.   
-![Step 4 (3)!](./images/step4(3).png)
+![Step 4 (3)!](./images/step4(3).png)   
+   
+Inside of the "src" directory, create node project by running these commands below.   
+```
+npm init   
+npm i fastify   
+```   
+   
+After that, create an index.js file by running the command `vim index.js` and add the fastify hellow world program.   
+![Step 4 (4)!](./images/step4(4).png)   
+   
+Next we will be testing the server locally. To be able to do this, we would need to install node first.   
+To install node, follow and run these commands below one by one:   
+```
+curl https://get.volta.sh | bash   
+source ~/.bashrc   
+volta install node    
+which npm
+```   
+   
+After installing node, run the index.js file by running the command `node index.js` in your **Terminal**   
+   
+### Step 5: Write Caddyfile Server Block on Local Machine
