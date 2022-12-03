@@ -28,5 +28,12 @@ sudo cp caddy /usr/bin/
 ```
 
 ### Step 4: Writing "Web App"
-To start, create a new directory (doesn't matter where you create it) on WSL and name it "2420-assign-two"   
-![Step 4 (1)!](./images/step4(1).png) 
+To start, create a new directory (doesn't matter where you create it) on WSL and name it "2420-assign-two".   
+![Step 4 (1)!](./images/step4(1).png)   
+   
+Inside of the "2420-assign-two" directory, create 2 new directories called "html" and "src".   
+![step 4 (2)!](./images/step4(2).png)   
+   
+Inside of the "html" directory, create an "index.html" page by using running the command `vim index.html`   
+and create a simple html document.   
+![Step 4 (3)!](./images/step4(3).png)
