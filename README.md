@@ -20,7 +20,7 @@ Follow this video below to create a new regular user for both of your newly adde
 
 ### Step 3: Install Caddy on Both Droplets
 To install Caddy, run these commands one by one below:   
-> wget https://github.com/caddyserver/caddy/releases/download/v2.6.2/caddy_2.6.2_linux_amd64.tar.gz
-> tar xvf caddy_2.6.2_linux_amd64.tar.gz
-> sudo chown root: caddy
-> sudo cp caddy /usr/bin/
+`wget https://github.com/caddyserver/caddy/releases/download/v2.6.2/caddy_2.6.2_linux_amd64.tar.gz`   
+`tar xvf caddy_2.6.2_linux_amd64.tar.gz`   
+`sudo chown root: caddy`   
+`sudo cp caddy /usr/bin/`
