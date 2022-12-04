@@ -27,23 +27,11 @@ sudo chown root: caddy
 sudo cp caddy /usr/bin/
 ```   
 
-Once installation is complete, you can then begin to configure Caddy configuration file by following    
-and running these commands below:   
-```
-sudo mkdir /etc/caddy
-sudo chmod 777 Caddyfile
-vim Caddyfile
-```   
-   
-Add the following inside the Caddyfile:   
-![Step 3 (1)!](./images/step3(1).png)   
-
 ### Step 4: Writing "Web App"
-To start, create a new directory (doesn't matter where you create it) on WSL and name it "2420-assign-two".   
-![Step 4 (1)!](./images/step4(1).png)   
+You will be using WSL. Create a directory called "www" inside the /var directory.   
    
-Inside of the "2420-assign-two" directory, create 2 new directories called "html" and "src".   
-![step 4 (2)!](./images/step4(2).png)   
+Inside of the /var/www directory, create 2 new directories called "html" and "src".  
+![Step 4 (2)!](./images/step4(2).png)   
    
 Inside of the "html" directory, create an "index.html" page by using running the command `vim index.html`.   
 and create a simple html document.   
@@ -67,6 +55,7 @@ volta install node
 which npm
 ```   
    
-After installing node, run the index.js file by running the command `node index.js` in your **Terminal**   
+After installing node, run the index.js file by running the command `node index.js`.   
+Go to your desired browser and go to `localhost:3000` to verify if the it is working   
    
 ### Step 5: Write Caddyfile Server Block on Local Machine
